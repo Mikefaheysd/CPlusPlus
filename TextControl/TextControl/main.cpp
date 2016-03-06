@@ -12,7 +12,14 @@ using namespace std;
 
 int main()
 {
-    cout << "This is some text" << endl;
-    cout << "Using some more text" << endl;
+    string name;
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << "you entered: " << name << endl;
+    
+    int age;
+    cout << "Enter your age: " ;
+    cin >> age;
+    cout << "You entered : " << age << endl;
     return 0;
 }
